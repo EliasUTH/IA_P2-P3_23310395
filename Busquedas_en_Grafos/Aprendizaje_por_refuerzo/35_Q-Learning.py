@@ -16,6 +16,7 @@ gamma = 0.9      # Factor de descuento (qué tanto le importan las recompensas f
 epsilon = 0.2    # Probabilidad de exploración (20% de las veces tomará un paso al azar)
 episodios = 100  # Número de veces que el agente intentará llegar a la meta
 
+
 # 3. Lógica del Entorno (Simulador)
 def tomar_accion(estado, accion):
     # Calcular el nuevo estado basado en la acción
