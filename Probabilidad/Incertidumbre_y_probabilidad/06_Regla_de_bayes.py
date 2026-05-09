@@ -1,5 +1,4 @@
 print("=== CLASIFICADOR IA USANDO LA REGLA DE BAYES ===\n")
-
 def regla_de_bayes(prior, verosimilitud, evidencia):
     """
     Calcula la probabilidad a posteriori usando la Regla de Bayes matemática pura.
