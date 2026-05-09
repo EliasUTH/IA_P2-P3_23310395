@@ -31,6 +31,7 @@ def tomar_accion(estado, accion):
     else:
         return siguiente_estado, 0, False # Recompensa de 0 por cualquier otro paso
 
+
 # 4. Bucle de Entrenamiento de Q-Learning
 for episodio in range(episodios):
     estado = 0 # El agente siempre empieza en la casilla 0
