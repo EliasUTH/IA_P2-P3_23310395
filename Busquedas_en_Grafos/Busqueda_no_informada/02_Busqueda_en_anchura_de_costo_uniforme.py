@@ -9,6 +9,7 @@ grafo = {
     'F': {}
 }
 
+
 def busqueda_costo_uniforme(grafo, inicio, objetivo):
     cola_prioridad = [(0, inicio)]
     costo_minimo = {inicio: 0}
