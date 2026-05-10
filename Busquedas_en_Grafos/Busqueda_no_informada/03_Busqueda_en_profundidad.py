@@ -35,7 +35,6 @@ def busqueda_en_profundidad(grafo, inicio, objetivo):
     encontrado = dfs(inicio)
     return camino if encontrado else None
 
-
 if __name__ == '__main__':
     inicio = 'A'
     objetivo = 'F'
