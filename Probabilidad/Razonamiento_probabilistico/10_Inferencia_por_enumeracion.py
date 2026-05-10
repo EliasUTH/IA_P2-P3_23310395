@@ -97,6 +97,7 @@ print("=== RESULTADO DE LA INFERENCIA ===")
 print(f"Probabilidad de que SÍ haya un Robo: {resultado[True] * 100:.2f}%")
 print(f"Probabilidad de que NO haya un Robo: {resultado[False] * 100:.2f}%")
 
+
 if resultado[True] > 0.20:
     print("\nConclusión: ¡Un 28.4% es una probabilidad de robo gigante!")
     print("(Recuerda que la probabilidad normal de un robo cualquier día era de apenas 0.1%).")
