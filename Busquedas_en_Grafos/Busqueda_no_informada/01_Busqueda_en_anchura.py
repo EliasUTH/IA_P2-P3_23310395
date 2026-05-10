@@ -34,6 +34,7 @@ def busqueda_en_anchura(grafo, inicio, objetivo):
 
     return None
 
+
 inicio = 'A'
 objetivo = 'F'
 camino = busqueda_en_anchura(grafo, inicio, objetivo)
