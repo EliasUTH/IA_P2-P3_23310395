@@ -94,6 +94,7 @@ evidencia_ia = {'Pasto_Mojado': True, 'Aspersor': False}
 consulta_ia = ('Lluvia', True)
 simulaciones = 10000
 
+
 print("ESCENARIO: Sales de tu casa, ves el Pasto Mojado y el Aspersor apagado.")
 print("La IA está calculando la probabilidad de que haya Llovido.\n")
 
