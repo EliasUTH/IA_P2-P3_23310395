@@ -11,6 +11,7 @@ N_REINAS = 5
 
 
 
+
 def calcular_conflictos(tablero):
     """
     Función Heurística (Costo): Cuenta cuántos pares de reinas se están atacando.
