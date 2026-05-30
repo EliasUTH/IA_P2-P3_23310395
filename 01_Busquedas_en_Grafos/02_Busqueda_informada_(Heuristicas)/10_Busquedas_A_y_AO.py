@@ -12,6 +12,7 @@ class Grafo:
         self.grafo[u].append((v, costo))
         self.grafo[v].append((u, costo))  
 
+
 def heuristica(nodo, goal):
     coordenadas = {
         'A': (0, 0), 'B': (1, 1), 'C': (2, 0), 'D': (3, 1),
