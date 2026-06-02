@@ -8,6 +8,7 @@ def exchange_sort(arreglo):
 
 
     
+    
     # Recorremos la lista hasta el penúltimo elemento
     for i in range(n - 1): 
         # Comparamos el elemento 'i' con todos los elementos que le siguen
