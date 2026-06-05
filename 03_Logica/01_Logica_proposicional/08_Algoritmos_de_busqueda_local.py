@@ -34,6 +34,7 @@ def calcular_conflictos(tablero):
 
 
 
+
 def obtener_mejores_vecinos(tablero):
     """
     Genera todos los tableros vecinos (moviendo una reina en su columna)
