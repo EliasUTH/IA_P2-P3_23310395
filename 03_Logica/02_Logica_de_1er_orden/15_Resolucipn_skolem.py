@@ -4,6 +4,7 @@ contador_constantes = 1
 contador_funciones = 1
 
 
+
 def aplicar_sustitucion_skolem(termino, var_objetivo, reemplazo):
     """
     Recorre la estructura de un predicado y reemplaza la variable 
